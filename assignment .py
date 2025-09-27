@@ -104,12 +104,12 @@ obtained_marks = English + Islamiat + Maths
 percentage = (obtained_marks / total_marks) * 100
 
 # Display Results neatly aligned
-print(f"{'English':<15}: {English}/100")
-print(f"{'Islamiat':<15}: {Islamiat}/100")
-print(f"{'Maths':<15}: {Maths}/100")
+print(f"{'English:'} {English}/100")
+print(f"{'Islamiat:'} {Islamiat}/100")
+print(f"{'Maths:'} {Maths}/100")
 print("-"*50)
-print(f"{'Total Marks':<15}: {obtained_marks}/{total_marks}")
-print(f"{'Percentage':<15}: {percentage:.2f}%")
+print(f"{'Total Marks:'} {obtained_marks}/{total_marks}")
+print(f"{'Percentage:'} {percentage}%")
 
 print("="*50)
 
